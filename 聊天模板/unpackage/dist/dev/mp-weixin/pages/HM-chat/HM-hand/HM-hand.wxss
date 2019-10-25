@@ -1,0 +1,181 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+page {
+  background-color: #f3f3f3;
+}
+view {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+}
+.tabr {
+  width: 94%;
+  height: 105rpx;
+  padding: 0 3%;
+  border-bottom: solid 1rpx #dedede;
+}
+.tabr view {
+    width: 50%;
+    height: 100rpx;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-size: 28rpx;
+    color: #999;
+}
+.tabr .on {
+    color: #cf3c35;
+}
+.tabr .border {
+    height: 4rpx;
+    background-color: #cf3c35;
+    -webkit-transition: all .3s ease-out;
+    -o-transition: all .3s ease-out;
+    transition: all .3s ease-out;
+}
+.tabr .border.normal {
+      -webkit-transform: translate3d(100%, 0, 0);
+              transform: translate3d(100%, 0, 0);
+}
+.content {
+  width: 100%;
+  height: 80vh;
+  overflow: hidden;
+}
+.content.normal .luck {
+    -webkit-transform: translate3d(-100%, 0, 0);
+            transform: translate3d(-100%, 0, 0);
+}
+.content.normal .normal {
+    -webkit-transform: translate3d(0, -100%, 0);
+            transform: translate3d(0, -100%, 0);
+}
+.content .luck, .content .normal {
+    -webkit-transition: all .3s ease-out;
+    -o-transition: all .3s ease-out;
+    transition: all .3s ease-out;
+}
+.content .normal {
+    -webkit-transform: translate3d(100%, -100%, 0);
+            transform: translate3d(100%, -100%, 0);
+}
+.content .row, .content .tis, .content .blessing, .content .hand {
+    width: 94%;
+}
+.content .row, .content .tis, .content .blessing {
+    border-bottom: #dedede solid 1rpx;
+}
+.content .row, .content .blessing {
+    padding: 0 3%;
+    background-color: #fff;
+}
+.content .row, .content .blessing, .content .hand {
+    height: 100rpx;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+.content .row {
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-flex-wrap: nowrap;
+        -ms-flex-wrap: nowrap;
+            flex-wrap: nowrap;
+}
+.content .row .term, .content .row .input {
+      width: 50%;
+}
+.content .row .input {
+      -webkit-flex-shrink: 0;
+          -ms-flex-negative: 0;
+              flex-shrink: 0;
+      -webkit-flex-wrap: nowrap;
+          -ms-flex-wrap: nowrap;
+              flex-wrap: nowrap;
+      -webkit-box-pack: end;
+      -webkit-justify-content: flex-end;
+          -ms-flex-pack: end;
+              justify-content: flex-end;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center;
+}
+.content .row .input input {
+        height: 50rpx;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: end;
+        -webkit-justify-content: flex-end;
+            -ms-flex-pack: end;
+                justify-content: flex-end;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+            -ms-flex-align: center;
+                align-items: center;
+        text-align: right;
+        margin-right: 20rpx;
+        font-size: 30rpx;
+}
+.content .tis {
+    height: 60rpx;
+    padding: 20rpx 3%;
+    font-size: 30rpx;
+    color: #999;
+}
+.content .blessing input {
+    width: 100%;
+    height: 50rpx;
+    font-size: 32rpx;
+}
+.content .hand {
+    margin: 30rpx 3%;
+    background-color: #cf3c35;
+    color: #fff;
+    font-size: 34rpx;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    border-radius: 10rpx;
+    height: 90rpx;
+}
+

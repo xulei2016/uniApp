@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "业务大厅",
+  "usingComponents": {
+    "mix-advert": "/components/mix-advert/vue/mix-advert"
+  }
+}

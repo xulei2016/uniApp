@@ -1,0 +1,77 @@
+
+.swiper {
+	height: 300rpx;
+}
+.swiper-item {
+	display: block;
+	height: 300rpx;
+	line-height: 300rpx;
+	text-align: center;
+}
+.swiper-list {
+	margin-top: 40rpx;
+	margin-bottom: 0;
+}
+.uni-common-mt{
+	margin-top:60rpx;
+	position:relative;
+}
+.info {
+	position: absolute;
+	right:20rpx;
+}
+.zt-business-module{
+	background-color: #fffbfb;
+	margin: 40rpx 0;
+}
+.zt-business-module .module-title{
+	color: #BBBBBB;
+	padding-left: 10rpx;
+	border-left: 2px solid #007AFF;
+}
+.zt-business-module .module-content{
+	margin-top: 10rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-flow: row;
+	    -ms-flex-flow: row;
+	        flex-flow: row;
+	-webkit-flex-wrap: wrap;
+	    -ms-flex-wrap: wrap;
+	        flex-wrap: wrap;
+	-webkit-box-pack: start;
+	-webkit-justify-content: start;
+	    -ms-flex-pack: start;
+	        justify-content: start;
+	border-top: 2px solid #B2B2B2;
+}
+.zt-business-module .module-content image{
+	width: 132rpx;
+	height: 132rpx;
+	border-radius: 80rpx;
+}
+.zt-business-module .module-content .module-item{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-flow: column;
+	    -ms-flex-flow: column;
+	        flex-flow: column;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	margin: 20rpx;
+	font-size: 12px;
+}
+.zt-business-module .module-content text{
+	text-align: center;
+}
+
